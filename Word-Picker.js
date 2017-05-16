@@ -1,5 +1,8 @@
-//Word Picker
+(function(wordPicker) {
+    "use strict";
 
-var wordPicker = {
-  getWord : function(){}
-}
+    wordPicker = {
+        getWord : function() { }
+    }
+
+})(module.exports);

@@ -1,7 +1,12 @@
-var gameDisplay = {
-  updatedDisplay : function(){}
+(function(gameDisplay) {
+    "use strict";
 
-    //lettersGuesses
-    //Number of Incorrect guesses
-    //current state of word
-}
+    gameDisplay = {
+      updateDisplay : function() {
+        //lettersGuesses
+        //Number of Incorrect guesses
+        //current state of word
+      }
+    }
+
+})(module.exports);
