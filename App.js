@@ -1,10 +1,11 @@
 (function(){
+    "use strict";
 
-  var gameState = require("Game-State.js");
-  var gameLoop = require("Game-Loop.js");
-  var wordPicker = require("Word-Picker.js");
-  var gameDisplay = require("Game-Display.js");
+    var gameState = require("./Game-State");
+    var gameLoop = require("./Game-Loop");
+    var wordPicker = require("./Word-Picker");
+    var gameDisplay = require("./Game-Display");
 
-  gameLoop.init(gameState, wordPicker, gameDisplay);
+    gameLoop.init(gameState, wordPicker, gameDisplay);
 
 })();

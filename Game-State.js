@@ -1,11 +1,13 @@
-//GameState
+(function(gameState) {
+    "use strict";
 
-var gameState = {
+    gameState = {
+        word: ""
+        getIncorrectGuesses: function() { }
+        lettersGuessed: []
+        makeGuessArray: function() { }
+        addLettersGuessed: function() { }
+        hiddenLetterChar: "_"
+    }
 
-  word: ""
-  getIncorrectGuesses:function(){}
-  lettersGuessed:[]
-  makeGuessArray: function(){}
-  addLettersGuessed: function(){}
-  hiddenLetterChar: "_"
-}
+})(module.exports);
