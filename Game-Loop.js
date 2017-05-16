@@ -1,20 +1,17 @@
-//Every Game Loop
+(function(gameState) {
+    "use strict";
 
-startGame()
-boolean isGameOver()
-getUserInput()
-testGuess()
+    gameLoop = {
 
+      init:function(){}, up  //update GameState
 
-var gameLoop = {
+      startGame:function(){},
 
-  init:function(){}, up  //update GameState
+      isGameOver:function(){}, //Test GameState
 
-  startGame:function(){},
+      getUserInput:function(){},
 
-  isGameOver:function(){}, //Test GameState
+      testGuess:function(){}
+    }
 
-  getUserInput:function(){},
-
-  testGuess:function(){}
-}
+})(module.exports);
