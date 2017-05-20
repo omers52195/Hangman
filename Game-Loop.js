@@ -11,6 +11,8 @@
 
       getUserInput:function(){},
 
+      isInputValid: function(){},
+
       testGuess:function(){}
     }
 
